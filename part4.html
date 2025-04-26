@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity画面の説明</title>
+</head>
+<body>
+    <h1>解説ターンふたたび</h1>
+    <p>Unityのよくわからん用語の解説が2こ前ので終わったと思ったか！ふはは！甘いぜ！<br>
+    ここからはUnityのエディターの見方とかを解説していくぜ！</p>
+    <h1>解説するもの</h1>
+    <p>
+        <li>Hierarchy(ヒエラルキー)</li>
+        <li>SceneView/GameView（シーンビュー/ゲームビュー）</li>
+        <li>Inspector(インスペクター)</li>
+        <li>Assets(アセット)</li>
+        <li>DebugLog(デバッグログ)</li>
+    </p>
+    <h2>Hierarchy(ヒエラルキー)</h2>
+    <p>初期位置は画面の左側。いまこのSceneに存在するGameObjectの一覧が表示されています。<br>
+        <img src="Picture/44 (1).jpg"width="800"height="450"><br>
+        どっちを上に表示するかみたいなレイヤー的役割もあります。あんまその用途では使わないけど。<br>
+        最初はCameraとLightしかないけど、作ってるとどんどん増えます。
+    </p>
+    <h2>SceneView/GameView（シーンビュー/ゲームビュー）</h2>
+    <p>初期位置だと真ん中の上側。<br>上のほうにSceneとGameって書いてあると思いますが、それを押すとSceneViewとGameViewが変えれます。<br>
+        <img src="Picture/44 (2).jpg"width="800"height="450"><br>
+        2Dだと最初はGameViewになってるかも。<br>
+        SceneViewは、GameObjectの配置や編集を行える場所です。<br>
+        数値の細かい調整がいらない時とかは、ここで直接フリーハンドで座標をいじったりします。<br><br>
+
+        GameViewは、実際のゲーム画面です。<br>
+        さっき出たCameraで映されている映像が流れます。<br>
+        SceneViewと違って、基本的に直接クリックしたりはできません。<br>
+        テストプレイしたり、見え方を確認するときとかに使います。
+    </p>
+    <h2>Inspector(インスペクター)</h2>
+    <img src="Picture/44 (3).jpg"width="800"height="450"><br>
+    <p>初期位置だと右側。<br>HierarchyとかでクリックしたGameObjectの詳細が表示される場所です。<br>
+    現在地の座標や大きさ、向きなどがずらっと表示されてます。<br>
+    Componentとかをアタッチする時にも開きます。</p>
+    <h2>Assets(アセット)</h2>
+    <img src="Picture/44 (4).jpg"width="800"height="450"><br>
+    <p>初期位置だと画面下側。<br>
+        ここにあるのはざっくり言えばエクスプローラーです。<br>
+        このProjectで使うためのScriptや画像などを入れておくための倉庫みたいな感じです。<br>
+        Prefabなんかもここに保存しておきます。<br>
+        使い方としてはwindowsでエクスプローラー使うときと近い感じで使えます。
+    </p>
+    <h2>DebugLog(デバッグログ)</h2>
+    <p>Assetsの下。Projectを作った直後は何も表示されてないのでわかりにくい。<br>
+        ここには、自分が書いたScriptにバグやミスがあった時に、<br>
+        間違ってる場所、どんなミスをしているかを書いておいてくれる場所です。<br>
+        プログラムの動作チェックのためにここにメッセージを表示させたりもできます。<br>
+        クリックするとでかくなってコピペできるようになります。
+    </p>
+    <h1>お疲れさまでした</h1>
+    <p>ここまで9割解説でしたがここからはちゃんと実際に触りながらです。<br>
+        ここまでに解説した単語は結構頻出なので覚えておいてくださいね。
+    </p>
+    <a href="part5.html">つぎにすすむ</a>
+</body>
+</html>
